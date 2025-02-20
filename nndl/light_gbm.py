@@ -1,7 +1,5 @@
 """
-This script trains a LightGBM model using the 'lambdarank' objective on the MSLR-WEB10K dataset.
-It uses five-fold cross-validation and reports nDCG@3, nDCG@5, and nDCG@10 for each fold.
-The training time is optimized for speed using GPU acceleration, reduced boosting rounds, and early stopping.
+Answers question 14
 """
 
 import lightgbm as lgb
