@@ -91,6 +91,22 @@ if __name__ == "__main__":
     dataset_folder = "C:/Users/AndyXing/Desktop/ece_219/MSLR-WEB10K"  # Update as needed
     train_and_evaluate(dataset_folder)
 # Performance on Fold1 test set:
-# nDCG@3:  0.5361
-# nDCG@5:  0.5353
-# nDCG@10: 0.5386
+# nDCG@3:  0.5354
+# nDCG@5:  0.5349
+# nDCG@10: 0.5393
+# Performance on Fold2 test set:
+# nDCG@3:  0.5403
+# nDCG@5:  0.5367
+# nDCG@10: 0.5392
+# Performance on Fold3 test set:
+# nDCG@3:  0.5309
+# nDCG@5:  0.5317
+# nDCG@10: 0.5388
+# Performance on Fold4 test set:
+# nDCG@3:  0.5427
+# nDCG@5:  0.5428
+# nDCG@10: 0.5484
+# Performance on Fold5 test set:
+# nDCG@3:  0.5428
+# nDCG@5:  0.5448
+# nDCG@10: 0.5499
