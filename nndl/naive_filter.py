@@ -1,14 +1,10 @@
 """
 Answer for question 11
 """
-
-
-from scipy.sparse import coo_matrix
 import numpy as np
 from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import KFold
 from proj3_q1 import *
-
 
 class NaiveCollaborativeFilter:
     def __init__(self, rating_matrix):
