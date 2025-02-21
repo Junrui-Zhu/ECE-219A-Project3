@@ -26,6 +26,7 @@ Necessary steps to run the code:
  Question 9: q9.py
  Question 10: q10A.py,q10b.py,q10c.py
  Question 11: naive_filter.py
+ Question 9: q12.py
  Question 13: web10k.py
  Question 14: light_gbm.py
  Question 15: q15.py
