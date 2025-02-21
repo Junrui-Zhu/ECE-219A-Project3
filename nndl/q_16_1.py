@@ -92,7 +92,6 @@ def train_and_evaluate_reduced(folds_folder):
             callbacks=[lgb.early_stopping(stopping_rounds=5),lgb.log_evaluation(period=50)]
         )
 
-        # 移除最重要的 20 个特征
         top_20_features = get_top_features(initial_model, top_n=20)
         print(f"Removed top 20 features for {fold}: {top_20_features}")
 
@@ -103,7 +102,6 @@ def train_and_evaluate_reduced(folds_folder):
         train_data_reduced = lgb.Dataset(X_train_reduced, label=y_train_split, group=group_train_split)
         val_data_reduced = lgb.Dataset(X_val_reduced, label=y_val, group=group_val)
 
-        # 重新训练
         final_model = lgb.train(
             params,
             train_data_reduced,
@@ -115,8 +113,6 @@ def train_and_evaluate_reduced(folds_folder):
                 lgb.log_evaluation(period=50)
             ]
         )
-
-        # 评估模型
         ndcg_3, ndcg_5, ndcg_10 = evaluate_model(final_model, X_test_reduced, y_test, qid_test)
         print(f"\n===== Performance after removing top 20 features ({fold}) =====")
         print(f"nDCG@3:  {ndcg_3:.4f}")
