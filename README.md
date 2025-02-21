@@ -21,6 +21,10 @@ Necessary steps to run the code:
 4. Each python script performs a certain algorithm, performs a certain task, or answers several questions by running it. Code comments are provided at the beginning of each python script.
  Question 1: proj3_q1.py
  Question 4: proj3_q4.py
+ Question 6: q6.py
+ Question 8: q8a.py,q8b.py,q8c.py
+ Question 9: q9.py
+ Question 10: q10A.py,q10b.py,q10c.py
  Question 11: naive_filter.py
  Question 13: web10k.py
  Question 14: light_gbm.py
