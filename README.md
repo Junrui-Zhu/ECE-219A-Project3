@@ -35,14 +35,14 @@ Necessary steps to run the code:
 
 ## Dependencies
 This project requires the following libraries and tools. 
-python==3.9.13
-lightgbm>=4.0.0
-scikit-learn>=1.2.0
-numpy>=1.23.0
-pandas>=1.5.0
-matplotlib>=3.6.0
-scipy>=1.10.0
-scikit-surprise>=1.1.3
+- python==3.9.13
+- lightgbm>=4.0.0
+- scikit-learn>=1.2.0
+- numpy>=1.23.0
+- pandas>=1.5.0
+- matplotlib>=3.6.0
+- scipy>=1.10.0
+- scikit-surprise>=1.1.3
 ---
 
 ## File Structure
