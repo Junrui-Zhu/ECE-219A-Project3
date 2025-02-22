@@ -14,11 +14,11 @@ Necessary steps to run the code:
    cd ECE-219A-Project3
    ```
 
-2. Install the required dependencies:
+2. Install the required dependencies. (Check #dependencies for detail)
 
-3. There are 2 datasets in this project. Make sure that they are downloaded and remember to change the path in corresponding /nndl python scripts so that the dataset can be loaded.
+3. There are 2 datasets in this project. In our submitted codes, only 1 dataset (movie) is included. We dropped the irrelevant .csv files and only left ratings.csv. For web10k dataset, you need to download it. After that, change the corresponding path in q_16_1.py, q15.py, q16_2.py, web10k.py so that the web10k dataset can be loaded successfully. 
 
-4. Each python script performs a certain algorithm, performs a certain task, or answers several questions by running it. Code comments are provided at the beginning of each python script.
+4. Each python script performs a certain algorithm/task, or answers several questions by running it. Code comments are provided at the beginning of each python script.
  Question 1: proj3_q1.py
  Question 4: proj3_q4.py
  Question 6: q6.py
@@ -47,30 +47,29 @@ This project requires the following libraries and tools.
 
 ## File Structure
 This Project is organized as follows:
-```bash             
-├── Synthetic_Movie_Lens/  
-│   └── ratings.csv  
+```bash              
 ├── nndl/                 # Source code
-│   ├── 20_cluster.py         
-│   ├── agg_cluster.py
-│   ├── all_tfidf_labels.py
-│   ├── hdbscan_cluster.py
-│   ├── images_dim_reduction_and_cluster.py
-│   ├── k_mean.py
-│   ├── load_images.py
-│   ├── nmf_svd_kmeans.py
-│   ├── nmf.py
-│   ├── pca_svd.py
-│   ├── plotmat.py
-│   ├── pokemon_cluster_visualization.py
-│   ├── pokemon_image_select.py 
-│   ├── pokemon_type_select.py 
-│   ├── text_dim_reduction_and_cluster.py 
-│   ├── torch_model.py 
-│   ├── tSNE_visualization.py 
-│   ├── umap_reduction.py 
-│   └── visualize_kmean.py 
-├── ECE219-proj3.pdf  #report in pdf format 
+│   ├── light_gbm.py         
+│   ├── naive_filter.py
+│   ├── proj3_q1.py
+│   ├── proj3_q4.py
+│   ├── q_16_1.py
+│   ├── q6.py
+│   ├── q8a.py
+│   ├── q8b.py
+│   ├── q8c.py
+│   ├── q9.py
+│   ├── q10A.py
+│   ├── q10b.py
+│   ├── q10c.py 
+│   ├── q12.py 
+│   ├── q15.py 
+│   ├── q16_2.py 
+│   └── web10k.py 
+├── Synthetic_Movie_Lens/ 
+│   ├── ratings.csv
+│   └── README.txt 
+├── learning_to_rank_helper.ipynb
 └── README.md            # Documentation
 ```
 
