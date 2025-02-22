@@ -26,7 +26,7 @@ Necessary steps to run the code:
  Question 9: q9.py
  Question 10: q10A.py,q10b.py,q10c.py
  Question 11: naive_filter.py
- Question 9: q12.py
+ Question 12: q12.py
  Question 13: web10k.py
  Question 14: light_gbm.py
  Question 15: q15.py
@@ -47,9 +47,9 @@ scikit-surprise>=1.1.3
 
 ## File Structure
 This Project is organized as follows:
-```bash
-├── pokemon_images                
-├── flower_photos/       
+```bash             
+├── Synthetic_Movie_Lens/  
+│   └── ratings.csv  
 ├── nndl/                 # Source code
 │   ├── 20_cluster.py         
 │   ├── agg_cluster.py
@@ -62,13 +62,13 @@ This Project is organized as follows:
 │   ├── nmf.py
 │   ├── pca_svd.py
 │   ├── plotmat.py
-│   └── pokemon_cluster_visualization.py
-│   └── pokemon_image_select.py 
-│   └── pokemon_type_select.py 
-│   └── text_dim_reduction_and_cluster.py 
-│   └── torch_model.py 
-│   └── tSNE_visualization.py 
-│   └── umap_reduction.py 
+│   ├── pokemon_cluster_visualization.py
+│   ├── pokemon_image_select.py 
+│   ├── pokemon_type_select.py 
+│   ├── text_dim_reduction_and_cluster.py 
+│   ├── torch_model.py 
+│   ├── tSNE_visualization.py 
+│   ├── umap_reduction.py 
 │   └── visualize_kmean.py 
 ├── ECE219-proj3.pdf  #report in pdf format 
 └── README.md            # Documentation
